@@ -1,0 +1,11 @@
+git init: es un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo. Al ejecutar este comando, se creará un nuevo subdirectorio . git en tu directorio de trabajo actual.
+
+git add README.md: es el comando que mueve al índice las modificaciones que hayamos realizado. El índice es un snapshot del contenido del área de trabajo en un momento dado.
+
+git commit -m "primer compromiso": guardará todos los cambio hechos en la zona de montaje o área de preparación (staging area), junto con una breve descripción del usuario, en un "commit" al repositorio local.
+
+git branch -M main: te permite crear, enumerar y eliminar ramas, así como cambiar su nombre.
+
+git remote add origen https://github.com/garciameraluis/proyecto01.git:crea un nuevo control remoto llamado originubicado en git@github.com:peter/first_app.git.
+
+git push - u origen principal:Este es un comando que dice "empujar los commits en la rama local llamada masteral remoto llamado origin". Una vez que esto se ejecute, todas las cosas que sincronizó por última vez con el origen se enviarán al repositorio remoto y otras personas podrán verlas allí.
